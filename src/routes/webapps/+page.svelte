@@ -7,7 +7,7 @@
 
 <div id="bitepay-container" class="flex">
   <div class="relative max-w-5xl mx-auto px-10 pt-20 sm:pt-24 lg:pt-32">
-    <h1 in:scale={{  duration: 1000, easing: bounceInOut }} class="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center"><a href="/">
+    <h1 in:scale={{  duration: 1000, easing: bounceInOut }} class="text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center"><a href="http://bitepaynyc-env.eba-jjnppubt.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noreferrer" >
       BitePay-NYC
     </a>
     </h1>
