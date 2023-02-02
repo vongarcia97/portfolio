@@ -54,7 +54,7 @@
     </a>
     </h1>
     <h1 in:fade={{ delay: 250, duration: 2000, easing: quintInOut }} class="text-slate-400 font-extrabold text-2xl md:text-3xl lg:text-5xl tracking-tight text-center">Track your favorite <br>Instagram food bloggers.</h1>
-    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center max-w-3xl mx-auto">Frontend: 
+    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center tracking-widest max-w-3xl mx-auto">Frontend: 
       <code class="font-mono font-medium text-lime-500">
         Svelte.js
       </code> |<!--  -->
@@ -65,7 +65,7 @@
         Tailwindcss
       </code>
     </p>
-    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center max-w-3xl mx-auto">Backend: 
+    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center tracking-widest max-w-3xl mx-auto">Backend: 
       <code class="font-mono font-medium text-lime-500">
         Instagram API
       </code> |<!--  -->
@@ -76,7 +76,7 @@
         SvelteKit
       </code>
     </p>
-    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center max-w-3xl mx-auto">Devops:
+    <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center tracking-widest max-w-3xl mx-auto">Devops:
       <code class="font-mono font-medium text-lime-500">
         GitHub Actions
       </code> |<!--  -->
