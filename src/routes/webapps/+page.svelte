@@ -67,6 +67,9 @@
     </p>
     <p in:slide={{ delay: 1500, duration: 2000, easing: bounceInOut }} class="mt-6 text-sm md:text-lg text-slate-300 text-center max-w-3xl mx-auto">Backend: 
       <code class="font-mono font-medium text-lime-500">
+        Instagram API
+      </code> |<!--  -->
+      <code class="font-mono font-medium text-lime-500">
         NoSQL
       </code> |<!--  -->
       <code class="font-mono font-medium text-lime-500">
