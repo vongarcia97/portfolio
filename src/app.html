@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="viewport-fit=cover">
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link href="https://npmcdn.com/flickity@2/dist/flickity.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<style>
+			.gradient {
+				background: linear-gradient(100deg, #171f7d 0%, #04163d 50%, #000000 100%);
+			}
+			.material-symbols-outlined {
+				font-variation-settings:
+				'FILL' 0,
+				'wght' 400,
+				'GRAD' 0,
+				'opsz' 48
+			}
+		</style>
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="leading-normal tracking-wide text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+		<div style="display: contents" >%sveltekit.body%</div>
+	</body>
+</html>
