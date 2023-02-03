@@ -1,5 +1,4 @@
 <script>
-  import {onMount} from 'svelte';
   import { fade, scale, slide } from 'svelte/transition';
   import { bounceInOut, quintInOut } from 'svelte/easing';
 

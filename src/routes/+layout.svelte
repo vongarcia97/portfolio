@@ -1,11 +1,22 @@
 <script>
+  import { onMount } from 'svelte';
   import '../app.css';
   import PageTransition from '$lib/PageTransition.svelte';
 
   export let data;
+
+  let intro = false;
+
+  onMount(() => {
+    intro = true;
+  })
 </script>
 
-<PageTransition key={data.url} duration={600} >
+
+<PageTransition key={data.url} duration={600}>
+  {#if !intro}
+  <h1>LOADING.....</h1>
+  {:else}
   <slot/>
   <div class="flex justify-center mt-36 pb-32 px-2">
     <p class="text-slate-100 dark:text-slate-100 text-xs md:text-lg md:px-4">
@@ -24,6 +35,7 @@
       New York, NY
     </p>
   </div>
+  {/if}
 </PageTransition>
   
 <div class="btm-nav">
