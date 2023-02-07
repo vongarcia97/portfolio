@@ -1,6 +1,6 @@
 <script>
   import profilePhoto from '$lib/assets/profilePhoto.gif';
-  import { fly, scale, fade, crossfade, slide } from 'svelte/transition';
+  import { fly, scale, slide } from 'svelte/transition';
   import { quintInOut } from 'svelte/easing';
 
   const bioLines = [
