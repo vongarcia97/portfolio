@@ -38,7 +38,7 @@
       Von Garcia
     </div>
     <div class="text-slate-300 dark:text-slate-300 text-lg md:text-xl">
-      Full Stack Software Engineer
+      Software Engineer
     </div>
     <div class="text-slate-400 dark:text-slate-400 text-md md:text-lg">
       New York, NY
